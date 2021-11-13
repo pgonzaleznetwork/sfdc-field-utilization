@@ -6,7 +6,7 @@ let getUsageMetrics = require('../src/index');
 * @apiVersion the version of the Salesforce API. If not specified or if it's lower than 49.0, we use 49.0 by default
 */
 let connection = {
-    token: '00D3h000005XLUw!AQkAQJIu7tHdjJZrznl2eeXjpEz3NS6DIpxAKiGP5OMHWW17rE2z9uoh9Hxs8EUmc4IuOuFac.BcHZjawhlnolDhHcvfzkaU',
+    token: '00D3h000005XLUw!AQkAQGwlCKXCo.blY6lUZsW4pm7iHYNUmAIut0EIMjnQrykMAMbWkFcPXxYWuPdCAsNM_AnE.A49LnJJrMMilzdGsWIjOWJ_',
     url:'https://brave-raccoon-mm7crl-dev-ed.my.salesforce.com',
     apiVersion:'49.0'
 };
