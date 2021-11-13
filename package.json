@@ -1,6 +1,6 @@
 {
   "name": "sfdc-field-utilization",
-  "version": "8.0.0",
+  "version": "9.0.0",
   "description": "",
   "main": "src/index.js",
   "scripts": {
