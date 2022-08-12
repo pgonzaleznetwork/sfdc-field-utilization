@@ -1,16 +1,7 @@
-let usageMetrics = require('../lib/usageMetrics');
+let libraryFunction = require('../lib/libraryFunction');
 
-async function getUsageMetrics(connection,field){
-
-    let [object,fieldName] = field.split('.');
-
-    if(!object || !fieldName){
-        throw new Error('Invalid field name. Must be object.Field');
-    }
-
-    let response = await usageMetrics(connection,field);
-    return response;
-
+async function yourFunction(connection){
+    //do something with libraryFunction
 }
 
-module.exports = getUsageMetrics;
+module.exports = yourFunction;
